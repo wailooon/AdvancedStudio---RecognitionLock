@@ -17,6 +17,7 @@ face_id = input('\n enter user id end press <return> ==>  ')
 print("\n [INFO] Initializing face capture. Look the camera and wait ...")
 # Initialize individual sampling face count
 count = 0
+
 while(True):
     ret, img = cam.read()
     img = cv2.flip(img, 1) # flip video image vertically
